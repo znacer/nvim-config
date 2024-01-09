@@ -5,3 +5,4 @@
 local map = vim.keymap.set
 -- remap scrolling
 map("n", "<C-d>", "<C-d>zz", { desc = "Move down" })
+map("n", "<C-u>", "<C-u>zz", { desc = "Move down" })
